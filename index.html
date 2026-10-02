@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--meta name good for viewing the website on different devices-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joanne's XiaoBenBen</title>
+
+    <!--normalize-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    
+    <!--icon-->
+
+
+    <!--fonts-->
+
+
+    <!--stylesheet-->
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ========================
+       SIDEBAR
+  ========================= -->
+  <aside class="sidebar">
+
+    <div class="logo">
+      <div class="logo-mark">W</div>
+      <span>wise.</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#" class="nav-item active">
+        <i class="fa-regular fa-wallet"></i>
+        <span>Budget</span>
+      </a>
+
+      <a href="#" class="nav-item">
+        <i class="fa-regular fa-calendar"></i>
+        <span>Planner</span>
+      </a>
+    </nav>
+
+    <div class="profile">
+      <div class="avatar">J</div>
+
+      <div>
+        <p class="profile-name">Joanne</p>
+        <p class="profile-subtitle">My space</p>
+      </div>
+    </div>
+
+  </aside>
+
+
+  <!-- ========================
+       MAIN CONTENT
+  ========================= -->
+  <main class="main">
+
+    <!-- Header -->
+    <header class="page-header">
+
+      <div>
+        <p class="date">Thursday, October 1</p>
+
+        <h1>Your monthly budget</h1>
+
+        <p class="page-description">
+          A soft little space for your money.
+        </p>
+      </div>
+
+      <button class="add-expense-btn">
+        <i class="fa-solid fa-plus"></i>
+        Add expense
+      </button>
+
+    </header>
+
+
+    <!-- Month Navigation -->
+    <div class="month-navigation">
+
+      <button class="month-arrow">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <h2>October 2026</h2>
+
+      <button class="month-arrow">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+
+    </div>
+
+
+    <!-- ========================
+         MONTH SNAPSHOT
+    ========================= -->
+    <section class="snapshot-card">
+
+      <div class="snapshot-content">
+        <p class="eyebrow">October snapshot</p>
+
+        <h2>
+          <span>$824</span>
+          saved this month
+        </h2>
+
+        <p class="snapshot-description">
+          You’re 18% ahead of last month. Lovely work.
+        </p>
+      </div>
+
+
+      <div class="goal-chart">
+        <div class="goal-ring">
+          <div>
+            <strong>72%</strong>
+            <span>of goal</span>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- ========================
+         SUMMARY CARDS
+    ========================= -->
+    <section class="summary-grid">
+
+      <article class="summary-card">
+
+        <div class="summary-icon green">
+          <i class="fa-regular fa-wallet"></i>
+        </div>
+
+        <div>
+          <p class="summary-label">Left to spend</p>
+
+          <h3>$1,842</h3>
+
+          <p class="summary-caption">
+            for the rest of October
+          </p>
+        </div>
+
+      </article>
+
+
+      <article class="summary-card">
+
+        <div class="summary-icon pink">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+
+        <div>
+          <p class="summary-label">Spent this month</p>
+
+          <h3>$1,431.17</h3>
+
+          <p class="summary-caption">
+            $240 less than May
+          </p>
+        </div>
+
+      </article>
+
+    </section>
+
+
+    <!-- ========================
+         LOWER DASHBOARD
+    ========================= -->
+    <section class="dashboard-grid">
+
+      <!-- Spending Plan -->
+      <article class="panel spending-panel">
+
+        <div class="panel-heading">
+
+          <div>
+            <p class="eyebrow">Categories</p>
+            <h2>Your spending plan</h2>
+          </div>
+
+          <span class="panel-month">
+            October 2026
+          </span>
+
+        </div>
+
+
+        <!-- Category -->
+        <div class="category-row">
+
+          <div class="category-info">
+            <h3>Groceries</h3>
+            <p>$164 left</p>
+          </div>
+
+          <div class="category-progress">
+            <div class="progress-track">
+              <div
+                class="progress-fill groceries"
+                style="width: 64%;"
+              ></div>
+            </div>
+          </div>
+
+          <div class="category-total">
+            <strong>$286</strong>
+            <span>of $450</span>
+          </div>
+
+        </div>
+
+
+        <div class="category-row">
+
+          <div class="category-info">
+            <h3>Eating out</h3>
+            <p>$108 left</p>
+          </div>
+
+          <div class="category-progress">
+            <div class="progress-track">
+              <div
+                class="progress-fill eating"
+                style="width: 57%;"
+              ></div>
+            </div>
+          </div>
+
+          <div class="category-total">
+            <strong>$142</strong>
+            <span>of $250</span>
+          </div>
+
+        </div>
+
+
+        <div class="category-row">
+
+          <div class="category-info">
+            <h3>Transport</h3>
+            <p>$84 left</p>
+          </div>
+
+          <div class="category-progress">
+            <div class="progress-track">
+              <div
+                class="progress-fill transport"
+                style="width: 53%;"
+              ></div>
+            </div>
+          </div>
+
+          <div class="category-total">
+            <strong>$96</strong>
+            <span>of $180</span>
+          </div>
+
+        </div>
+
+
+        <div class="category-row">
+
+          <div class="category-info">
+            <h3>Fun</h3>
+            <p>$102 left</p>
+          </div>
+
+          <div class="category-progress">
+            <div class="progress-track">
+              <div
+                class="progress-fill fun"
+                style="width: 54%;"
+              ></div>
+            </div>
+          </div>
+
+          <div class="category-total">
+            <strong>$118</strong>
+            <span>of $220</span>
+          </div>
+
+        </div>
+
+      </article>
+
+
+      <!-- Recent Activity -->
+      <article class="panel recent-panel">
+
+        <div class="recent-heading">
+
+          <div>
+            <p class="eyebrow">Recent activity</p>
+            <h2>Little things add up</h2>
+          </div>
+
+          <span>
+            4<br />
+            entries
+          </span>
+
+        </div>
+
+
+        <div class="transaction">
+
+          <div class="transaction-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+
+          <div class="transaction-info">
+            <strong>Sunday groceries</strong>
+            <span>Groceries · Today</span>
+          </div>
+
+          <strong class="transaction-amount">
+            −$86.42
+          </strong>
+
+        </div>
+
+
+        <div class="transaction">
+
+          <div class="transaction-icon">
+            <i class="fa-solid fa-mug-hot"></i>
+          </div>
+
+          <div class="transaction-info">
+            <strong>Morning coffee</strong>
+            <span>Eating out · Today</span>
+          </div>
+
+          <strong class="transaction-amount">
+            −$5.75
+          </strong>
+
+        </div>
+
+
+        <div class="transaction">
+
+          <div class="transaction-icon">
+            <i class="fa-solid fa-car"></i>
+          </div>
+
+          <div class="transaction-info">
+            <strong>Train pass</strong>
+            <span>Transport · Yesterday</span>
+          </div>
+
+          <strong class="transaction-amount">
+            −$42
+          </strong>
+
+        </div>
+
+
+        <div class="transaction">
+
+          <div class="transaction-icon">
+            <i class="fa-solid fa-sparkles"></i>
+          </div>
+
+          <div class="transaction-info">
+            <strong>Ceramics class</strong>
+            <span>Fun · Jun 8</span>
+          </div>
+
+          <strong class="transaction-amount">
+            −$65
+          </strong>
+
+        </div>
+
+      </article>
+
+    </section>
+
+  </main>
+
+
+  <!-- ========================
+       MOBILE NAVIGATION
+  ========================= -->
+  <nav class="mobile-nav">
+
+    <a href="#" class="active">
+      <i class="fa-regular fa-wallet"></i>
+      <span>Budget</span>
+    </a>
+
+    <a href="#">
+      <i class="fa-regular fa-calendar"></i>
+      <span>Planner</span>
+    </a>
+
+    <a href="#">
+      <i class="fa-regular fa-user"></i>
+      <span>Profile</span>
+    </a>
+
+  </nav>
+
+</body>
+</html>
